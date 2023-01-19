@@ -1,0 +1,2822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 176</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>126</value>
+  </data>
+  <data name="pictureBox38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 176</value>
+  </data>
+  <data name="pictureBox38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 12</value>
+  </data>
+  <data name="pictureBox38.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox38.Name" xml:space="preserve">
+    <value>pictureBox38</value>
+  </data>
+  <data name="&gt;&gt;pictureBox38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox38.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox38.ZOrder" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="pictureBox75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 134</value>
+  </data>
+  <data name="pictureBox75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 10</value>
+  </data>
+  <data name="pictureBox75.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox75.Name" xml:space="preserve">
+    <value>pictureBox75</value>
+  </data>
+  <data name="&gt;&gt;pictureBox75.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox75.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox75.ZOrder" xml:space="preserve">
+    <value>124</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 95</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 12</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>123</value>
+  </data>
+  <data name="pictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 55</value>
+  </data>
+  <data name="pictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 12</value>
+  </data>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
+    <value>pictureBox5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox5.ZOrder" xml:space="preserve">
+    <value>122</value>
+  </data>
+  <data name="Regal1_25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 152</value>
+  </data>
+  <data name="Regal1_25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_25.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Regal1_25.Name" xml:space="preserve">
+    <value>Regal1_25</value>
+  </data>
+  <data name="&gt;&gt;Regal1_25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_25.ZOrder" xml:space="preserve">
+    <value>121</value>
+  </data>
+  <data name="Regal1_27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 152</value>
+  </data>
+  <data name="Regal1_27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_27.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Regal1_27.Name" xml:space="preserve">
+    <value>Regal1_27</value>
+  </data>
+  <data name="&gt;&gt;Regal1_27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_27.ZOrder" xml:space="preserve">
+    <value>120</value>
+  </data>
+  <data name="Regal1_26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 152</value>
+  </data>
+  <data name="Regal1_26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_26.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Regal1_26.Name" xml:space="preserve">
+    <value>Regal1_26</value>
+  </data>
+  <data name="&gt;&gt;Regal1_26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_26.ZOrder" xml:space="preserve">
+    <value>119</value>
+  </data>
+  <data name="Regal1_28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 152</value>
+  </data>
+  <data name="Regal1_28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_28.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Regal1_28.Name" xml:space="preserve">
+    <value>Regal1_28</value>
+  </data>
+  <data name="&gt;&gt;Regal1_28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_28.ZOrder" xml:space="preserve">
+    <value>118</value>
+  </data>
+  <data name="Regal1_29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 152</value>
+  </data>
+  <data name="Regal1_29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_29.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Regal1_29.Name" xml:space="preserve">
+    <value>Regal1_29</value>
+  </data>
+  <data name="&gt;&gt;Regal1_29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_29.ZOrder" xml:space="preserve">
+    <value>117</value>
+  </data>
+  <data name="Regal1_30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 152</value>
+  </data>
+  <data name="Regal1_30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_30.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Regal1_30.Name" xml:space="preserve">
+    <value>Regal1_30</value>
+  </data>
+  <data name="&gt;&gt;Regal1_30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_30.ZOrder" xml:space="preserve">
+    <value>116</value>
+  </data>
+  <data name="Regal1_31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 152</value>
+  </data>
+  <data name="Regal1_31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_31.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Regal1_31.Name" xml:space="preserve">
+    <value>Regal1_31</value>
+  </data>
+  <data name="&gt;&gt;Regal1_31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_31.ZOrder" xml:space="preserve">
+    <value>115</value>
+  </data>
+  <data name="Regal1_32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 152</value>
+  </data>
+  <data name="Regal1_32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_32.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Regal1_32.Name" xml:space="preserve">
+    <value>Regal1_32</value>
+  </data>
+  <data name="&gt;&gt;Regal1_32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_32.ZOrder" xml:space="preserve">
+    <value>114</value>
+  </data>
+  <data name="Regal1_24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 113</value>
+  </data>
+  <data name="Regal1_24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_24.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Regal1_24.Name" xml:space="preserve">
+    <value>Regal1_24</value>
+  </data>
+  <data name="&gt;&gt;Regal1_24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_24.ZOrder" xml:space="preserve">
+    <value>106</value>
+  </data>
+  <data name="Regal1_23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 113</value>
+  </data>
+  <data name="Regal1_23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_23.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;Regal1_23.Name" xml:space="preserve">
+    <value>Regal1_23</value>
+  </data>
+  <data name="&gt;&gt;Regal1_23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_23.ZOrder" xml:space="preserve">
+    <value>107</value>
+  </data>
+  <data name="Regal1_22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 113</value>
+  </data>
+  <data name="Regal1_22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_22.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Regal1_22.Name" xml:space="preserve">
+    <value>Regal1_22</value>
+  </data>
+  <data name="&gt;&gt;Regal1_22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_22.ZOrder" xml:space="preserve">
+    <value>108</value>
+  </data>
+  <data name="Regal1_21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 113</value>
+  </data>
+  <data name="Regal1_21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_21.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Regal1_21.Name" xml:space="preserve">
+    <value>Regal1_21</value>
+  </data>
+  <data name="&gt;&gt;Regal1_21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_21.ZOrder" xml:space="preserve">
+    <value>109</value>
+  </data>
+  <data name="Regal1_20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 113</value>
+  </data>
+  <data name="Regal1_20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_20.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Regal1_20.Name" xml:space="preserve">
+    <value>Regal1_20</value>
+  </data>
+  <data name="&gt;&gt;Regal1_20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_20.ZOrder" xml:space="preserve">
+    <value>110</value>
+  </data>
+  <data name="Regal1_18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 113</value>
+  </data>
+  <data name="Regal1_18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_18.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Regal1_18.Name" xml:space="preserve">
+    <value>Regal1_18</value>
+  </data>
+  <data name="&gt;&gt;Regal1_18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_18.ZOrder" xml:space="preserve">
+    <value>111</value>
+  </data>
+  <data name="Regal1_19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 113</value>
+  </data>
+  <data name="Regal1_19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_19.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Regal1_19.Name" xml:space="preserve">
+    <value>Regal1_19</value>
+  </data>
+  <data name="&gt;&gt;Regal1_19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_19.ZOrder" xml:space="preserve">
+    <value>112</value>
+  </data>
+  <data name="Regal1_17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 113</value>
+  </data>
+  <data name="Regal1_17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_17.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Regal1_17.Name" xml:space="preserve">
+    <value>Regal1_17</value>
+  </data>
+  <data name="&gt;&gt;Regal1_17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_17.ZOrder" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="Regal1_16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 73</value>
+  </data>
+  <data name="Regal1_16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_16.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;Regal1_16.Name" xml:space="preserve">
+    <value>Regal1_16</value>
+  </data>
+  <data name="&gt;&gt;Regal1_16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_16.ZOrder" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="Regal1_15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 73</value>
+  </data>
+  <data name="Regal1_15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_15.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Regal1_15.Name" xml:space="preserve">
+    <value>Regal1_15</value>
+  </data>
+  <data name="&gt;&gt;Regal1_15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_15.ZOrder" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="Regal1_14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 73</value>
+  </data>
+  <data name="Regal1_14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_14.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Regal1_14.Name" xml:space="preserve">
+    <value>Regal1_14</value>
+  </data>
+  <data name="&gt;&gt;Regal1_14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_14.ZOrder" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="Regal1_13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 73</value>
+  </data>
+  <data name="Regal1_13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_13.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;Regal1_13.Name" xml:space="preserve">
+    <value>Regal1_13</value>
+  </data>
+  <data name="&gt;&gt;Regal1_13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_13.ZOrder" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="Regal1_12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 73</value>
+  </data>
+  <data name="Regal1_12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_12.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;Regal1_12.Name" xml:space="preserve">
+    <value>Regal1_12</value>
+  </data>
+  <data name="&gt;&gt;Regal1_12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_12.ZOrder" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="Regal1_10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 73</value>
+  </data>
+  <data name="Regal1_10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_10.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Regal1_10.Name" xml:space="preserve">
+    <value>Regal1_10</value>
+  </data>
+  <data name="&gt;&gt;Regal1_10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_10.ZOrder" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="Regal1_11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 73</value>
+  </data>
+  <data name="Regal1_11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_11.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Regal1_11.Name" xml:space="preserve">
+    <value>Regal1_11</value>
+  </data>
+  <data name="&gt;&gt;Regal1_11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_11.ZOrder" xml:space="preserve">
+    <value>104</value>
+  </data>
+  <data name="Regal1_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 73</value>
+  </data>
+  <data name="Regal1_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_9.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Regal1_9.Name" xml:space="preserve">
+    <value>Regal1_9</value>
+  </data>
+  <data name="&gt;&gt;Regal1_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_9.ZOrder" xml:space="preserve">
+    <value>105</value>
+  </data>
+  <data name="Regal1_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 31</value>
+  </data>
+  <data name="Regal1_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_8.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;Regal1_8.Name" xml:space="preserve">
+    <value>Regal1_8</value>
+  </data>
+  <data name="&gt;&gt;Regal1_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_8.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="Regal1_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 31</value>
+  </data>
+  <data name="Regal1_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_7.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;Regal1_7.Name" xml:space="preserve">
+    <value>Regal1_7</value>
+  </data>
+  <data name="&gt;&gt;Regal1_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_7.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="Regal1_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 31</value>
+  </data>
+  <data name="Regal1_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_6.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;Regal1_6.Name" xml:space="preserve">
+    <value>Regal1_6</value>
+  </data>
+  <data name="&gt;&gt;Regal1_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_6.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="Regal1_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 31</value>
+  </data>
+  <data name="Regal1_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_5.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;Regal1_5.Name" xml:space="preserve">
+    <value>Regal1_5</value>
+  </data>
+  <data name="&gt;&gt;Regal1_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_5.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="Regal1_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 31</value>
+  </data>
+  <data name="Regal1_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_4.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;Regal1_4.Name" xml:space="preserve">
+    <value>Regal1_4</value>
+  </data>
+  <data name="&gt;&gt;Regal1_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_4.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="Regal1_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 31</value>
+  </data>
+  <data name="Regal1_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_2.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;Regal1_2.Name" xml:space="preserve">
+    <value>Regal1_2</value>
+  </data>
+  <data name="&gt;&gt;Regal1_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_2.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="Regal1_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 31</value>
+  </data>
+  <data name="Regal1_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_3.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;Regal1_3.Name" xml:space="preserve">
+    <value>Regal1_3</value>
+  </data>
+  <data name="&gt;&gt;Regal1_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_3.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="Regal1_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 31</value>
+  </data>
+  <data name="Regal1_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal1_1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;Regal1_1.Name" xml:space="preserve">
+    <value>Regal1_1</value>
+  </data>
+  <data name="&gt;&gt;Regal1_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal1_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal1_1.ZOrder" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="Regal2_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 31</value>
+  </data>
+  <data name="Regal2_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_8.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;Regal2_8.Name" xml:space="preserve">
+    <value>Regal2_8</value>
+  </data>
+  <data name="&gt;&gt;Regal2_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_8.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="Regal2_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 31</value>
+  </data>
+  <data name="Regal2_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_7.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;Regal2_7.Name" xml:space="preserve">
+    <value>Regal2_7</value>
+  </data>
+  <data name="&gt;&gt;Regal2_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_7.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="Regal2_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 31</value>
+  </data>
+  <data name="Regal2_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_6.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;Regal2_6.Name" xml:space="preserve">
+    <value>Regal2_6</value>
+  </data>
+  <data name="&gt;&gt;Regal2_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_6.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="Regal2_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 31</value>
+  </data>
+  <data name="Regal2_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_5.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="&gt;&gt;Regal2_5.Name" xml:space="preserve">
+    <value>Regal2_5</value>
+  </data>
+  <data name="&gt;&gt;Regal2_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_5.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="Regal2_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 31</value>
+  </data>
+  <data name="Regal2_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_4.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;Regal2_4.Name" xml:space="preserve">
+    <value>Regal2_4</value>
+  </data>
+  <data name="&gt;&gt;Regal2_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_4.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="Regal2_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 31</value>
+  </data>
+  <data name="Regal2_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_2.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;Regal2_2.Name" xml:space="preserve">
+    <value>Regal2_2</value>
+  </data>
+  <data name="&gt;&gt;Regal2_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_2.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="Regal2_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 31</value>
+  </data>
+  <data name="Regal2_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_3.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;Regal2_3.Name" xml:space="preserve">
+    <value>Regal2_3</value>
+  </data>
+  <data name="&gt;&gt;Regal2_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_3.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="Regal2_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 31</value>
+  </data>
+  <data name="Regal2_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_1.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="&gt;&gt;Regal2_1.Name" xml:space="preserve">
+    <value>Regal2_1</value>
+  </data>
+  <data name="&gt;&gt;Regal2_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_1.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="Regal2_16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 73</value>
+  </data>
+  <data name="Regal2_16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_16.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;Regal2_16.Name" xml:space="preserve">
+    <value>Regal2_16</value>
+  </data>
+  <data name="&gt;&gt;Regal2_16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_16.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="Regal2_15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 73</value>
+  </data>
+  <data name="Regal2_15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_15.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;Regal2_15.Name" xml:space="preserve">
+    <value>Regal2_15</value>
+  </data>
+  <data name="&gt;&gt;Regal2_15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_15.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="Regal2_14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 73</value>
+  </data>
+  <data name="Regal2_14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_14.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="&gt;&gt;Regal2_14.Name" xml:space="preserve">
+    <value>Regal2_14</value>
+  </data>
+  <data name="&gt;&gt;Regal2_14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_14.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="Regal2_13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 73</value>
+  </data>
+  <data name="Regal2_13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_13.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;Regal2_13.Name" xml:space="preserve">
+    <value>Regal2_13</value>
+  </data>
+  <data name="&gt;&gt;Regal2_13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_13.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="Regal2_12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 73</value>
+  </data>
+  <data name="Regal2_12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_12.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;Regal2_12.Name" xml:space="preserve">
+    <value>Regal2_12</value>
+  </data>
+  <data name="&gt;&gt;Regal2_12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_12.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="Regal2_10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 73</value>
+  </data>
+  <data name="Regal2_10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_10.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;Regal2_10.Name" xml:space="preserve">
+    <value>Regal2_10</value>
+  </data>
+  <data name="&gt;&gt;Regal2_10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_10.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="Regal2_11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 73</value>
+  </data>
+  <data name="Regal2_11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_11.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;Regal2_11.Name" xml:space="preserve">
+    <value>Regal2_11</value>
+  </data>
+  <data name="&gt;&gt;Regal2_11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_11.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="Regal2_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 73</value>
+  </data>
+  <data name="Regal2_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_9.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;Regal2_9.Name" xml:space="preserve">
+    <value>Regal2_9</value>
+  </data>
+  <data name="&gt;&gt;Regal2_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_9.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="Regal2_24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 113</value>
+  </data>
+  <data name="Regal2_24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_24.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;Regal2_24.Name" xml:space="preserve">
+    <value>Regal2_24</value>
+  </data>
+  <data name="&gt;&gt;Regal2_24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_24.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="Regal2_23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 113</value>
+  </data>
+  <data name="Regal2_23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_23.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;Regal2_23.Name" xml:space="preserve">
+    <value>Regal2_23</value>
+  </data>
+  <data name="&gt;&gt;Regal2_23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_23.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="Regal2_22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 113</value>
+  </data>
+  <data name="Regal2_22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_22.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;Regal2_22.Name" xml:space="preserve">
+    <value>Regal2_22</value>
+  </data>
+  <data name="&gt;&gt;Regal2_22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_22.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="Regal2_21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 113</value>
+  </data>
+  <data name="Regal2_21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_21.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;Regal2_21.Name" xml:space="preserve">
+    <value>Regal2_21</value>
+  </data>
+  <data name="&gt;&gt;Regal2_21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_21.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="Regal2_20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 113</value>
+  </data>
+  <data name="Regal2_20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_20.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;Regal2_20.Name" xml:space="preserve">
+    <value>Regal2_20</value>
+  </data>
+  <data name="&gt;&gt;Regal2_20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_20.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="Regal2_18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 113</value>
+  </data>
+  <data name="Regal2_18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_18.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;Regal2_18.Name" xml:space="preserve">
+    <value>Regal2_18</value>
+  </data>
+  <data name="&gt;&gt;Regal2_18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_18.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="Regal2_19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 113</value>
+  </data>
+  <data name="Regal2_19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_19.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;Regal2_19.Name" xml:space="preserve">
+    <value>Regal2_19</value>
+  </data>
+  <data name="&gt;&gt;Regal2_19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_19.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="Regal2_17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 113</value>
+  </data>
+  <data name="Regal2_17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_17.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;Regal2_17.Name" xml:space="preserve">
+    <value>Regal2_17</value>
+  </data>
+  <data name="&gt;&gt;Regal2_17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_17.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="Regal2_32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 152</value>
+  </data>
+  <data name="Regal2_32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_32.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;Regal2_32.Name" xml:space="preserve">
+    <value>Regal2_32</value>
+  </data>
+  <data name="&gt;&gt;Regal2_32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_32.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="Regal2_31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 152</value>
+  </data>
+  <data name="Regal2_31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_31.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;Regal2_31.Name" xml:space="preserve">
+    <value>Regal2_31</value>
+  </data>
+  <data name="&gt;&gt;Regal2_31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_31.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="Regal2_30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 152</value>
+  </data>
+  <data name="Regal2_30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_30.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;Regal2_30.Name" xml:space="preserve">
+    <value>Regal2_30</value>
+  </data>
+  <data name="&gt;&gt;Regal2_30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_30.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="Regal2_29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 152</value>
+  </data>
+  <data name="Regal2_29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_29.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;Regal2_29.Name" xml:space="preserve">
+    <value>Regal2_29</value>
+  </data>
+  <data name="&gt;&gt;Regal2_29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_29.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="Regal2_28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 152</value>
+  </data>
+  <data name="Regal2_28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_28.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;Regal2_28.Name" xml:space="preserve">
+    <value>Regal2_28</value>
+  </data>
+  <data name="&gt;&gt;Regal2_28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_28.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="Regal2_26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 152</value>
+  </data>
+  <data name="Regal2_26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_26.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;Regal2_26.Name" xml:space="preserve">
+    <value>Regal2_26</value>
+  </data>
+  <data name="&gt;&gt;Regal2_26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_26.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="Regal2_27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>308, 152</value>
+  </data>
+  <data name="Regal2_27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_27.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;Regal2_27.Name" xml:space="preserve">
+    <value>Regal2_27</value>
+  </data>
+  <data name="&gt;&gt;Regal2_27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_27.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="Regal2_25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 152</value>
+  </data>
+  <data name="Regal2_25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal2_25.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;Regal2_25.Name" xml:space="preserve">
+    <value>Regal2_25</value>
+  </data>
+  <data name="&gt;&gt;Regal2_25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal2_25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal2_25.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="pictureBox70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 55</value>
+  </data>
+  <data name="pictureBox70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 12</value>
+  </data>
+  <data name="pictureBox70.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;pictureBox70.Name" xml:space="preserve">
+    <value>pictureBox70</value>
+  </data>
+  <data name="&gt;&gt;pictureBox70.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox70.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox70.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="pictureBox71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 95</value>
+  </data>
+  <data name="pictureBox71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 12</value>
+  </data>
+  <data name="pictureBox71.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;pictureBox71.Name" xml:space="preserve">
+    <value>pictureBox71</value>
+  </data>
+  <data name="&gt;&gt;pictureBox71.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox71.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox71.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="pictureBox72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 134</value>
+  </data>
+  <data name="pictureBox72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 12</value>
+  </data>
+  <data name="pictureBox72.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;pictureBox72.Name" xml:space="preserve">
+    <value>pictureBox72</value>
+  </data>
+  <data name="&gt;&gt;pictureBox72.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox72.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox72.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="pictureBox73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 176</value>
+  </data>
+  <data name="pictureBox73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 12</value>
+  </data>
+  <data name="pictureBox73.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;pictureBox73.Name" xml:space="preserve">
+    <value>pictureBox73</value>
+  </data>
+  <data name="&gt;&gt;pictureBox73.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox73.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox73.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 12</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 176</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="Regal3_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 31</value>
+  </data>
+  <data name="Regal3_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_8.TabIndex" type="System.Int32, mscorlib">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;Regal3_8.Name" xml:space="preserve">
+    <value>Regal3_8</value>
+  </data>
+  <data name="&gt;&gt;Regal3_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_8.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Regal3_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 31</value>
+  </data>
+  <data name="Regal3_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_7.TabIndex" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;Regal3_7.Name" xml:space="preserve">
+    <value>Regal3_7</value>
+  </data>
+  <data name="&gt;&gt;Regal3_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_7.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Regal3_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 31</value>
+  </data>
+  <data name="Regal3_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_6.TabIndex" type="System.Int32, mscorlib">
+    <value>109</value>
+  </data>
+  <data name="&gt;&gt;Regal3_6.Name" xml:space="preserve">
+    <value>Regal3_6</value>
+  </data>
+  <data name="&gt;&gt;Regal3_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_6.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Regal3_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 31</value>
+  </data>
+  <data name="Regal3_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_5.TabIndex" type="System.Int32, mscorlib">
+    <value>108</value>
+  </data>
+  <data name="&gt;&gt;Regal3_5.Name" xml:space="preserve">
+    <value>Regal3_5</value>
+  </data>
+  <data name="&gt;&gt;Regal3_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_5.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Regal3_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 31</value>
+  </data>
+  <data name="Regal3_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_4.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
+  </data>
+  <data name="&gt;&gt;Regal3_4.Name" xml:space="preserve">
+    <value>Regal3_4</value>
+  </data>
+  <data name="&gt;&gt;Regal3_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_4.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Regal3_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 31</value>
+  </data>
+  <data name="Regal3_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_2.TabIndex" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="&gt;&gt;Regal3_2.Name" xml:space="preserve">
+    <value>Regal3_2</value>
+  </data>
+  <data name="&gt;&gt;Regal3_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="Regal3_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 31</value>
+  </data>
+  <data name="Regal3_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_3.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="&gt;&gt;Regal3_3.Name" xml:space="preserve">
+    <value>Regal3_3</value>
+  </data>
+  <data name="&gt;&gt;Regal3_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_3.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="Regal3_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 31</value>
+  </data>
+  <data name="Regal3_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_1.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;Regal3_1.Name" xml:space="preserve">
+    <value>Regal3_1</value>
+  </data>
+  <data name="&gt;&gt;Regal3_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="Regal3_16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 73</value>
+  </data>
+  <data name="Regal3_16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_16.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;Regal3_16.Name" xml:space="preserve">
+    <value>Regal3_16</value>
+  </data>
+  <data name="&gt;&gt;Regal3_16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_16.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Regal3_15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 73</value>
+  </data>
+  <data name="Regal3_15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_15.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;Regal3_15.Name" xml:space="preserve">
+    <value>Regal3_15</value>
+  </data>
+  <data name="&gt;&gt;Regal3_15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_15.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Regal3_14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 73</value>
+  </data>
+  <data name="Regal3_14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_14.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="&gt;&gt;Regal3_14.Name" xml:space="preserve">
+    <value>Regal3_14</value>
+  </data>
+  <data name="&gt;&gt;Regal3_14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_14.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="Regal3_13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 73</value>
+  </data>
+  <data name="Regal3_13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_13.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;Regal3_13.Name" xml:space="preserve">
+    <value>Regal3_13</value>
+  </data>
+  <data name="&gt;&gt;Regal3_13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_13.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="Regal3_12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 73</value>
+  </data>
+  <data name="Regal3_12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_12.TabIndex" type="System.Int32, mscorlib">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;Regal3_12.Name" xml:space="preserve">
+    <value>Regal3_12</value>
+  </data>
+  <data name="&gt;&gt;Regal3_12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_12.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="Regal3_10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 73</value>
+  </data>
+  <data name="Regal3_10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_10.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
+  </data>
+  <data name="&gt;&gt;Regal3_10.Name" xml:space="preserve">
+    <value>Regal3_10</value>
+  </data>
+  <data name="&gt;&gt;Regal3_10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_10.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="Regal3_11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 73</value>
+  </data>
+  <data name="Regal3_11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_11.TabIndex" type="System.Int32, mscorlib">
+    <value>97</value>
+  </data>
+  <data name="&gt;&gt;Regal3_11.Name" xml:space="preserve">
+    <value>Regal3_11</value>
+  </data>
+  <data name="&gt;&gt;Regal3_11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_11.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Regal3_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 73</value>
+  </data>
+  <data name="Regal3_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_9.TabIndex" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="&gt;&gt;Regal3_9.Name" xml:space="preserve">
+    <value>Regal3_9</value>
+  </data>
+  <data name="&gt;&gt;Regal3_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_9.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Regal3_24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 113</value>
+  </data>
+  <data name="Regal3_24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_24.TabIndex" type="System.Int32, mscorlib">
+    <value>95</value>
+  </data>
+  <data name="&gt;&gt;Regal3_24.Name" xml:space="preserve">
+    <value>Regal3_24</value>
+  </data>
+  <data name="&gt;&gt;Regal3_24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_24.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Regal3_23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 113</value>
+  </data>
+  <data name="Regal3_23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_23.TabIndex" type="System.Int32, mscorlib">
+    <value>94</value>
+  </data>
+  <data name="&gt;&gt;Regal3_23.Name" xml:space="preserve">
+    <value>Regal3_23</value>
+  </data>
+  <data name="&gt;&gt;Regal3_23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_23.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="Regal3_22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 113</value>
+  </data>
+  <data name="Regal3_22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_22.TabIndex" type="System.Int32, mscorlib">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;Regal3_22.Name" xml:space="preserve">
+    <value>Regal3_22</value>
+  </data>
+  <data name="&gt;&gt;Regal3_22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_22.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="Regal3_21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 113</value>
+  </data>
+  <data name="Regal3_21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_21.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;Regal3_21.Name" xml:space="preserve">
+    <value>Regal3_21</value>
+  </data>
+  <data name="&gt;&gt;Regal3_21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_21.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="Regal3_20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 113</value>
+  </data>
+  <data name="Regal3_20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_20.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;Regal3_20.Name" xml:space="preserve">
+    <value>Regal3_20</value>
+  </data>
+  <data name="&gt;&gt;Regal3_20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_20.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="Regal3_18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 113</value>
+  </data>
+  <data name="Regal3_18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_18.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;Regal3_18.Name" xml:space="preserve">
+    <value>Regal3_18</value>
+  </data>
+  <data name="&gt;&gt;Regal3_18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_18.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="Regal3_19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 113</value>
+  </data>
+  <data name="Regal3_19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_19.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;Regal3_19.Name" xml:space="preserve">
+    <value>Regal3_19</value>
+  </data>
+  <data name="&gt;&gt;Regal3_19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_19.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="Regal3_17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 113</value>
+  </data>
+  <data name="Regal3_17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_17.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;Regal3_17.Name" xml:space="preserve">
+    <value>Regal3_17</value>
+  </data>
+  <data name="&gt;&gt;Regal3_17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_17.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="Regal3_32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 152</value>
+  </data>
+  <data name="Regal3_32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_32.TabIndex" type="System.Int32, mscorlib">
+    <value>87</value>
+  </data>
+  <data name="&gt;&gt;Regal3_32.Name" xml:space="preserve">
+    <value>Regal3_32</value>
+  </data>
+  <data name="&gt;&gt;Regal3_32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_32.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="Regal3_31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 152</value>
+  </data>
+  <data name="Regal3_31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_31.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;Regal3_31.Name" xml:space="preserve">
+    <value>Regal3_31</value>
+  </data>
+  <data name="&gt;&gt;Regal3_31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_31.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="Regal3_30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 152</value>
+  </data>
+  <data name="Regal3_30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_30.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="&gt;&gt;Regal3_30.Name" xml:space="preserve">
+    <value>Regal3_30</value>
+  </data>
+  <data name="&gt;&gt;Regal3_30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_30.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="Regal3_29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 152</value>
+  </data>
+  <data name="Regal3_29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_29.TabIndex" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;Regal3_29.Name" xml:space="preserve">
+    <value>Regal3_29</value>
+  </data>
+  <data name="&gt;&gt;Regal3_29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_29.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="Regal3_28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 152</value>
+  </data>
+  <data name="Regal3_28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_28.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="&gt;&gt;Regal3_28.Name" xml:space="preserve">
+    <value>Regal3_28</value>
+  </data>
+  <data name="&gt;&gt;Regal3_28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_28.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="Regal3_26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>526, 152</value>
+  </data>
+  <data name="Regal3_26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_26.TabIndex" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="&gt;&gt;Regal3_26.Name" xml:space="preserve">
+    <value>Regal3_26</value>
+  </data>
+  <data name="&gt;&gt;Regal3_26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_26.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="Regal3_27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 152</value>
+  </data>
+  <data name="Regal3_27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_27.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="&gt;&gt;Regal3_27.Name" xml:space="preserve">
+    <value>Regal3_27</value>
+  </data>
+  <data name="&gt;&gt;Regal3_27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_27.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="Regal3_25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>501, 152</value>
+  </data>
+  <data name="Regal3_25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 27</value>
+  </data>
+  <data name="Regal3_25.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;Regal3_25.Name" xml:space="preserve">
+    <value>Regal3_25</value>
+  </data>
+  <data name="&gt;&gt;Regal3_25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal3_25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal3_25.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="pictureBox107.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 55</value>
+  </data>
+  <data name="pictureBox107.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 12</value>
+  </data>
+  <data name="pictureBox107.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="&gt;&gt;pictureBox107.Name" xml:space="preserve">
+    <value>pictureBox107</value>
+  </data>
+  <data name="&gt;&gt;pictureBox107.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox107.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox107.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="pictureBox108.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 95</value>
+  </data>
+  <data name="pictureBox108.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 12</value>
+  </data>
+  <data name="pictureBox108.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;pictureBox108.Name" xml:space="preserve">
+    <value>pictureBox108</value>
+  </data>
+  <data name="&gt;&gt;pictureBox108.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox108.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox108.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="pictureBox109.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 134</value>
+  </data>
+  <data name="pictureBox109.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 12</value>
+  </data>
+  <data name="pictureBox109.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;pictureBox109.Name" xml:space="preserve">
+    <value>pictureBox109</value>
+  </data>
+  <data name="&gt;&gt;pictureBox109.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox109.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox109.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="pictureBox110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 176</value>
+  </data>
+  <data name="pictureBox110.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 12</value>
+  </data>
+  <data name="pictureBox110.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="&gt;&gt;pictureBox110.Name" xml:space="preserve">
+    <value>pictureBox110</value>
+  </data>
+  <data name="&gt;&gt;pictureBox110.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox110.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox110.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 12</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 176</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="pictureBox112.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 240</value>
+  </data>
+  <data name="pictureBox112.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 187</value>
+  </data>
+  <data name="pictureBox112.TabIndex" type="System.Int32, mscorlib">
+    <value>112</value>
+  </data>
+  <data name="&gt;&gt;pictureBox112.Name" xml:space="preserve">
+    <value>pictureBox112</value>
+  </data>
+  <data name="&gt;&gt;pictureBox112.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox112.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox112.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Regal4_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 248</value>
+  </data>
+  <data name="Regal4_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_1.TabIndex" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="&gt;&gt;Regal4_1.Name" xml:space="preserve">
+    <value>Regal4_1</value>
+  </data>
+  <data name="&gt;&gt;Regal4_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Regal4_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 284</value>
+  </data>
+  <data name="Regal4_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_2.TabIndex" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;Regal4_2.Name" xml:space="preserve">
+    <value>Regal4_2</value>
+  </data>
+  <data name="&gt;&gt;Regal4_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Regal4_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 320</value>
+  </data>
+  <data name="Regal4_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_3.TabIndex" type="System.Int32, mscorlib">
+    <value>116</value>
+  </data>
+  <data name="&gt;&gt;Regal4_3.Name" xml:space="preserve">
+    <value>Regal4_3</value>
+  </data>
+  <data name="&gt;&gt;Regal4_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_3.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Regal4_4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 356</value>
+  </data>
+  <data name="Regal4_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_4.TabIndex" type="System.Int32, mscorlib">
+    <value>117</value>
+  </data>
+  <data name="&gt;&gt;Regal4_4.Name" xml:space="preserve">
+    <value>Regal4_4</value>
+  </data>
+  <data name="&gt;&gt;Regal4_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_4.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Regal4_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 392</value>
+  </data>
+  <data name="Regal4_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_5.TabIndex" type="System.Int32, mscorlib">
+    <value>118</value>
+  </data>
+  <data name="&gt;&gt;Regal4_5.Name" xml:space="preserve">
+    <value>Regal4_5</value>
+  </data>
+  <data name="&gt;&gt;Regal4_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Regal4_6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 248</value>
+  </data>
+  <data name="Regal4_6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_6.TabIndex" type="System.Int32, mscorlib">
+    <value>119</value>
+  </data>
+  <data name="&gt;&gt;Regal4_6.Name" xml:space="preserve">
+    <value>Regal4_6</value>
+  </data>
+  <data name="&gt;&gt;Regal4_6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Regal4_7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 284</value>
+  </data>
+  <data name="Regal4_7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_7.TabIndex" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;Regal4_7.Name" xml:space="preserve">
+    <value>Regal4_7</value>
+  </data>
+  <data name="&gt;&gt;Regal4_7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Regal4_8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 320</value>
+  </data>
+  <data name="Regal4_8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_8.TabIndex" type="System.Int32, mscorlib">
+    <value>121</value>
+  </data>
+  <data name="&gt;&gt;Regal4_8.Name" xml:space="preserve">
+    <value>Regal4_8</value>
+  </data>
+  <data name="&gt;&gt;Regal4_8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Regal4_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 356</value>
+  </data>
+  <data name="Regal4_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_9.TabIndex" type="System.Int32, mscorlib">
+    <value>122</value>
+  </data>
+  <data name="&gt;&gt;Regal4_9.Name" xml:space="preserve">
+    <value>Regal4_9</value>
+  </data>
+  <data name="&gt;&gt;Regal4_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Regal4_10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 392</value>
+  </data>
+  <data name="Regal4_10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_10.TabIndex" type="System.Int32, mscorlib">
+    <value>123</value>
+  </data>
+  <data name="&gt;&gt;Regal4_10.Name" xml:space="preserve">
+    <value>Regal4_10</value>
+  </data>
+  <data name="&gt;&gt;Regal4_10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_10.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Regal4_11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 248</value>
+  </data>
+  <data name="Regal4_11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_11.TabIndex" type="System.Int32, mscorlib">
+    <value>124</value>
+  </data>
+  <data name="&gt;&gt;Regal4_11.Name" xml:space="preserve">
+    <value>Regal4_11</value>
+  </data>
+  <data name="&gt;&gt;Regal4_11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_11.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Regal4_13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 392</value>
+  </data>
+  <data name="Regal4_13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 30</value>
+  </data>
+  <data name="Regal4_13.TabIndex" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;Regal4_13.Name" xml:space="preserve">
+    <value>Regal4_13</value>
+  </data>
+  <data name="&gt;&gt;Regal4_13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_13.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Regal4_12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 312</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Regal4_12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Regal4_12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 46</value>
+  </data>
+  <data name="Regal4_12.TabIndex" type="System.Int32, mscorlib">
+    <value>126</value>
+  </data>
+  <data name="&gt;&gt;Regal4_12.Name" xml:space="preserve">
+    <value>Regal4_12</value>
+  </data>
+  <data name="&gt;&gt;Regal4_12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Regal4_12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Regal4_12.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 301</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>127</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 336</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 39</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>128</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Kwadraty na półkach reprezentują produkty które może zakupić klient. 
+W programie występuje 5 klientów oraz 4 pracowników sklepu 
+którzy dokładają towar na półki w przypadku gdy on się skończy</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Kacper Chwaszcz WCY20IX1S0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
